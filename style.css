@@ -29,12 +29,15 @@ ul {
     font-size: 1.5rem;
 }
 
+section {
+    border: 2px dashed gray;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2rem 30px;
-    border-bottom: 1px solid #ccc;
 }
 
 .text-wrapper {
@@ -71,13 +74,11 @@ ul {
 
 .badanie-ewolucji {
     display: flex;
-    border-bottom: 1px solid #ccc;
     justify-content: space-between;
     margin: 2rem;
 }
 
 .ewolucja {
-    border-bottom: 1px solid #ccc;
     margin: 2rem;
 }
 
@@ -96,7 +97,7 @@ ul {
 }
 
 .ewolucja img {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 2rem;
 }
@@ -117,4 +118,8 @@ ul {
     margin-left: 5rem;
     margin-bottom: 1rem;
     max-width: 70ch;
+}
+
+.disclaimer {
+    margin: 2rem;
 }
