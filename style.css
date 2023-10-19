@@ -66,18 +66,19 @@ ul {
 .pokrewienstwo ul {
     margin-left: 5rem;
     margin-bottom: 1rem;
+    max-width: 70ch;
 }
 
 .badanie-ewolucji {
     display: flex;
     border-bottom: 1px solid #ccc;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 2rem;
 }
 
 .ewolucja {
     border-bottom: 1px solid #ccc;
     margin: 2rem;
-    display: flex;
 }
 
 .ewolucja h2 {
@@ -91,4 +92,23 @@ ul {
 .ewolucja ul {
     margin-left: 5rem;
     margin-bottom: 1rem;
+    max-width: 70ch;
+}
+
+.zmiany {
+    margin: 2rem;
+}
+
+.zmiany h2 {
+    margin-bottom: 1rem;
+}
+
+.zmiany p {
+    margin-bottom: 1rem;
+}
+
+.zmiany ul {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    max-width: 70ch;
 }
