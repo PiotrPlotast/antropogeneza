@@ -25,6 +25,10 @@ p {
     font-size: 1.5rem;
 }
 
+ul {
+    font-size: 1.5rem;
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -67,6 +71,7 @@ p {
 .badanie-ewolucji {
     display: flex;
     border-bottom: 1px solid #ccc;
+    justify-content: space-around;
 }
 
 .ewolucja {
