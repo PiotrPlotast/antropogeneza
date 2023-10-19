@@ -95,6 +95,12 @@ ul {
     max-width: 70ch;
 }
 
+.ewolucja img {
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+}
+
 .zmiany {
     margin: 2rem;
 }
