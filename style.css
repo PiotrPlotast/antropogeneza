@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.text-wrapper {
+    background-color: #f5f5f5;
+    padding: 8rem 1rem;
+}
+
+.text-wrapper h2 {
+    margin-bottom: 1rem;
+}
+
+.text-wrapper p {
+    max-width: 50ch;
+}
+
+.pokrewienstwo {
+    border-bottom: 1px solid #ccc;
+    margin: 2rem;
+}
+
+.pokrewienstwo h2 {
+    margin-bottom: 1rem;
+}
+
+.pokrewienstwo p {
+    margin-bottom: 1rem;
+}
+
+.pokrewienstwo ul {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+
+.badanie-ewolucji {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
